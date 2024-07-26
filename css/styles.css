@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color:rgb(163, 120, 223);
+  color: rgb(100, 94, 100);
+}
+
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  padding: 2em;
+}
+
+.brand{
+  margin-top: -7px;
+  color: rgb(220, 102, 102);
+}
+
+.brand span{
+  color: rgb(5, 127, 143);
+}
+
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none;
+}
+
+.menu a {
+  color:rgb(51, 55, 56);
+  text-decoration: none ;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.menu .active{
+  color: rgb(2, 1, 2);
+}
+
+.menu a:hover{
+  background-color: rgb(216, 64, 64);
+  color: rgb(185, 7, 7);
+  transition: ease-in .4s;
+}
+
+.main {
+width: 80vW;
+height: 80vh;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(2, 1fr);  
+align-items: center;
+
+}
+.main p {
+color: rgb(6, 4, 6);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1 span {
+ color: rgb(122, 231, 131);
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: rgb(222, 107, 222);
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 4px 6px 18px -5px rgba(102, 231, 200, .69);
+}
+
+.download-cv:hover{
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.main img {
+  width: 350px;
+  border: 7px solid rgb(117, 105, 231);
+  height: 520px;
+  margin-left: 25px;
+}
+
+ .about {
+ display: grid;
+ grid-template-columns: repeat(10, 1fr);
+ width: 100vw;
+ align-items: center;
+ }
+ .about img{
+  width: 100%;
+  grid-column: 1/5;
+}
+.about-info{
+  grid-column: 5/10;
+  padding: 2em;
+}
+.about-info h2{
+  font-size: 2em;
+  color: #191c32;
+}
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: violet;
+  margin-top: 5px;
+  margin-bottom: 2em;
+  border-radius: 2px;
+}
+.about p{
+  margin-bottom: em;
+
+}
+.education{
+  background-color: rgb(38, 15, 53);
+  color: #fff;
+  
+}
+.education h2{
+  color: #fff;
+}
+.container{
+  border-radius: 8px;
+  padding: 15px;
+  width: 350px;
+  margin-bottom: 12px;
+box-shadow: 4px 6px 18px -5px;
+}
+.Experiencia{
+  background-color: rgb(7, 7, 7);
+  color: #fff;
+  
+}
+.Experiencia h2{
+  color: #fff;
+}
+.container{
+  border-radius: 8px;
+  padding: 15px;
+  width: 350px;
+  margin-bottom: 12px;
+box-shadow: 4px 6px 18px -5px;
+}
